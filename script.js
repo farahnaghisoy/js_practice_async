@@ -12,7 +12,7 @@ const requestToBack = new Promise(function (resolve, reject) {
       let responseFromBack = {
         message: "Login Success",
         data: {
-          fullname: "Vugar Safarzada",
+          fullname: "Farah Naghisoy",
           age: 21,
         },
       };
