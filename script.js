@@ -92,3 +92,11 @@ howOldAreYou();
  * then və catch ancaq ya then işe düşer yada catch ikisinden biri ancaq çalışır ikisi eyni anda əsla
  * try və catch birinci try işə düşür ardından error olarsa əgər catch işə düşür error olmasa elə trydan keçib gedir
  **/
+
+function sayLoveYouTo(name){
+  setInterval(() => {
+    console.log(`I love you ${name}`);
+  }, 1000);
+}
+
+sayLoveYouTo('Farah');
