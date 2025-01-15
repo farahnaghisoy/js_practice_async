@@ -1,3 +1,4 @@
+
 /**
  * 1) Promise nedir
  * 2) Promise nece yaradilir
