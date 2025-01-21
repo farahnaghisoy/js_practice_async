@@ -31,24 +31,23 @@
 // transferBalance(50);
 /**Function Scope vs. Global Scope */
 //Function Scope
-// function anonimFunction(){
-//     var localVariable = "sadece daxilde isleyir";
-//     console.log(localVariable);
-// }
-// anonimFunction();
-//   const name = "admin";
-//   const Password = "5432";
-// --------------------------------------
-//   function loginSystem(username , pass){
-//     if(username == name && pass == Password){
-//         return "success";
-//     } else{
-//         return "failed";
-//     }
-//   }
-//   console.log(loginSystem("admin","12345"));
-//   console.log(loginSystem("admin","5432"));
-// ------------------------------------------------
+/* function anonimFunction(){
+    var localVariable = "sadece daxilde isleyir";
+    console.log(localVariable);
+}
+anonimFunction();
+  const name = "admin";
+  const Password = "5432";
+--------------------------------------
+  function loginSystem(username , pass){
+    if(username == name && pass == Password){
+        return "success";
+    } else{
+        return "failed";
+    }
+  }
+  console.log(loginSystem("admin","12345"));
+  console.log(loginSystem("admin","5432")); */
 // global
 // var glbl = 25;
 //     function calculateSquare(num){
@@ -59,25 +58,25 @@
 // ------------------------------------
 
 // Adları Böyük Hərflərlə Yazan Funksiya
-//  const names = ["leyli","aylin","banu","laman","alsu"];
-//  function capitalizeNames(namesArray) {
-//    return namesArray.map(function(nameItem){
-//     // return nameItem.toUpperCase();
-//     if(nameItem == "aylin"){
-//         return "Farah";
-//     } else{
-//         return nameItem;
-//     }
-//    });
-//   }
+/* const names = ["leyli","aylin","banu","laman","alsu"];
+ function capitalizeNames(namesArray) {
+   return namesArray.map(function(nameItem){
+    // return nameItem.toUpperCase();
+    if(nameItem == "aylin"){
+        return "Farah";
+    } else{
+        return nameItem;
+    }
+   });
+  }
  
-//    function myFilter(charecther, namesArray){
-//         return namesArray.filter((name) => name.startsWith(charecther));
-//    }
-//    console.log(myFilter("a", names));
+   function myFilter(charecther, namesArray){
+        return namesArray.filter((name) => name.startsWith(charecther));
+   }
+   console.log(myFilter("a", names)); */
 
 // Temperatur Çevirici
-const tempr = 45;
+/*const tempr = 45;
 function convertTemperature(temperture, unit){
     if (unit == "C") {
         return (temperture * 9/5) + 32;
@@ -88,4 +87,39 @@ function convertTemperature(temperture, unit){
     }
 }
 console.log(convertTemperature(tempr,"C"));
-console.log(convertTemperature(tempr,"F"));
+console.log(convertTemperature(tempr,"F")); * */
+
+// For Loop
+// 1.Sayıların Toplamını Hesapla
+/*
+const nums = [5,10,15,25,30];
+let total = 100;
+for (let index = 5; index < nums.length; index++) {
+    total += nums[index]; 
+}
+console.log("Sayıların Toplamını Hesapla:", total );*/
+ 
+// 2.Çift Sayıları Bul
+/*const  numbers = [2,3,6,9,4,10,12];
+let evenNums = [];
+    for (let index = 0; index < numbers.length; index ++) {
+      if(numbers[index] % 2 === 0 ){
+         evenNums.push(numbers[index]);
+      }
+    }
+console.log(" Çift Sayıları Bul:", evenNums);*/
+
+// Karelerini Hesapla
+/*const numbers = [4, 5, 6, 8];
+let calculateCubs = [];
+  for (let v = 0; v < numbers.length; v++) 
+  {
+      calculateCubs.push(numbers[v]**3);
+  }
+  console.log("Karelerini Hesapla:",calculateCubs);* */
+
+
+
+
+
+
