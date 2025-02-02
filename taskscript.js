@@ -118,8 +118,80 @@ let calculateCubs = [];
   }
   console.log("Karelerini Hesapla:",calculateCubs);* */
 
+// while
+// let timer = 0;
+// while (timer < 5){
+//   console.log(timer);
+//   timer++;
+// }
 
 
+// let evenNum = 4;
+// do{
+//   console.log(evenNum);
+//   evenNum++;
+// } while(evenNum <= 20);
+// --------------------
+//  İstifadəçi girişini yoxlama
+// let input;
+//   do {
+//     input = prompt("parolunuzu yazın:");
+//   } while (input !== "1234");
+//   console.log("Düzgün parol daxil edildi");???
+
+//FAktorial
+// let num = 5;
+// let factorial = 1;
+// do {
+//   factorial*= num;
+//   num--;
+// } while (num > 0);
+// console.log("Faktorial: " + factorial);
+console.clear();
 
 
+// const id = setTimeout(() => {
+  
+//   console.log("Vuqarimm 1")
+// }, 1000);
+// console.log("heyoo 2");
+//   clearTimeout(id);
+
+//  function myFunc(example1) {
+//   console.log(2);
+//   example1();
+//  }
+// myFunc(()=>{
+//   console.log(1);
+// });
+
+//  recursion
+// function example1() {
+//   console.log("salammm olsunn");
+//   return null;
+//   example1();
+// }
+// example1();
+
+// ------- CALLBACK-----
+// function writeF(example2) {
+//   console.log("Tastamammm2");
+//   example2();
+// }
+// writeF(()=>{
+//   // console.log("miraba marmızıı");
+// });
+
+// ---bozukk----
+// let count = 0;
+// function example3() {
+//   if(count == 8){
+    
+//     return 3;
+//   }
+//   count++;
+//   console.log('Git bashImdan');
+//   example3();
+// }
+// example3();
 
