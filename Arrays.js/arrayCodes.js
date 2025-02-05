@@ -34,3 +34,41 @@ const flowers =
 //     return targetItems;
 // } 
 // console.log(expensiveFlower()); */
+//OBJECT
+// let person = {
+//     name: "Vugar",
+//     age: 25,
+//     film:"interstaller"
+// };
+// console.log(person);
+
+// let lesson = {
+//   language: "JavaScript",
+//   Firstname: "Mocha",
+//   level: "Intermidate",
+//   year: 1995
+// };
+
+// lesson.author = "Brendan Eich";
+// // delete lesson.level;
+
+//     function updateLesson(obj, newFirstname, newlevel ){  //Dinamik Olarak Güncelleme
+//         obj.Firstname = newFirstname;
+//         obj.level = newlevel;
+//     }
+//     updateLesson(lesson, "LiveScript ", "Advanced");
+// console.log(lesson);
+
+let company = {
+ name: "Adviad",
+ employess: [
+    {name: "Vugar", position: "Software", salary: 2050 },
+    {name: "Farah", position: "Developer", salary: 1000 },
+ ]
+};
+    console.log(company.employess[0].name);
+    console.log(company.employess[1].position);
+    
+
+
+
